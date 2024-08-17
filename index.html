@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Ten is very excited to be working with code. This website documents the start of her journey." />
+        <link rel="stylesheet" href="styles.css">
     <title>Ten's Website</title>
 </head>
+<!-- WRONG WAY! DON"T DO THIS <style>
+    body {font-family: Arial, Helvetica, sans-serif};
+</style> -->
 <body>
     <header>
-        <h1>Ten's Journey</h1>
-        <h2>Following the code-learning process!</h2>
-        <h3><em>Will she succeed?</em></h3>
+        <h1 class="first-header-class">Ten's Journey</h1>
+        <h2 class="first-header-class">Following the code-learning process!</h2>
+        <h3 class="first-header-class">Will she succeed?</h3>
     </header>
     <main>
         <p>Ten has always been interested in learning how to code. She is excited to one day look back here
             <strong>(hopefully)</strong> in a future where she is more knowledgeable with coding.</p>
         <p>
-            <q>This is the start of something great!</q> - Kirsten Paterno
+            <q><em>This is the start of something great!</em></q> - Kirsten Paterno
         </p>
         <img src="images/heck-yeah.jpg" alt="Picture of emoji giving a thumbs up">
-        <section>
+        <section id="assignments">
             <h2>Assignments</h2>
             <p>Where Ten's assignments will be!</p>
             <ul>
@@ -29,8 +33,8 @@
                 <li>Book Work Assignment</li>
             </ul>
         </section>
-        <section>
-            <h2>About My Site</h2>
+        <section id="abt_site">
+            <h2> About My Site</h2>
             <p>Probably talking about cool things!</p>
             <ul>
                 <li>Responsive Web Design</li>
@@ -43,7 +47,7 @@
             </ul>
             <div></div>
         </section>
-        <section>
+        <section id="rules">
             <h2>Rules of the Site</h2>
             <ol>
                 <li>Have fun</li>

@@ -1,1 +1,54 @@
 
+
+/*UNIVERSAL SELECTOR */
+/* * {
+    RGB 0 - 255, 0 - 100%
+    Hexadecimal 
+    color:rgb(100, 149, 237);
+} */
+
+/*TYPE SELECTOR */
+
+p {
+    color:rgb(48, 19, 87);
+    font-size:1rem;
+}
+
+img {
+    float: left;
+    margin-right: 1em;
+}
+
+/* ID SELECTOR */
+#rules {
+    color:#4487de
+}
+
+#assignments {
+    clear: left;
+}
+
+/* RELATIONAL SELECTOR */
+section#assignments>ul {
+    color:var(--purple-color)
+}
+
+main em{
+    color:#a5003f
+}
+
+/*PSEUDO-ELEMENT*/
+section#abt_site a:visited { 
+    color:#006400;
+}
+
+section#abt_site a:hover {
+    font-size: 200%;
+    color:#ff4500
+}
+
+/* COMBINATION SELECTOR */
+h1, h2, h3 {
+    color:rgb(121, 5, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
