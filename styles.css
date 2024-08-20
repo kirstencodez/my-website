@@ -6,49 +6,63 @@
     Hexadecimal 
     color:rgb(100, 149, 237);
 } */
-
 /*TYPE SELECTOR */
-
+body {
+    background-color:rgb(33, 33, 33)
+}
 p {
-    color:rgb(48, 19, 87);
+    color:#ffebcd;
     font-size:1rem;
 }
-
 img {
-    float: left;
-    margin-right: 1em;
+    width: 45%;
+    margin: .5em 1em;
+    padding: .5em 1em;
 }
-
+h1 {
+    font-size:3rem;
+    text-align:center;
+    border: 1.5px solid white;
+    margin: .5em 1em;
+    padding: .5em 1em;
+}
+h3 {
+    font-style:italic;
+    font-size:larger;
+    margin: 5em 0em 1em 0em;
+}
 /* ID SELECTOR */
 #rules {
-    color:#4487de
+    color:#ffebcd;
 }
-
-#assignments {
-    clear: left;
-}
-
 /* RELATIONAL SELECTOR */
-section#assignments>ul {
-    color:var(--purple-color)
+section#what-is-there>ul {
+    color:#ffebcd;
+}
+section#abt_site>ul {
+    color:#ffebcd;
+}
+main em{
+    color:#fffb00
 }
 
-main em{
-    color:#a5003f
+/*UNIVERSAL SELECTOR */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffebcd;
 }
 
 /*PSEUDO-ELEMENT*/
 section#abt_site a:visited { 
-    color:#006400;
+    color:#ff0000;
 }
-
 section#abt_site a:hover {
     font-size: 200%;
-    color:#ff4500
+    color:#e1ff00
 }
 
 /* COMBINATION SELECTOR */
-h1, h2, h3 {
-    color:rgb(121, 5, 230);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1, h2 {
+    text-align:center;
 }
+
