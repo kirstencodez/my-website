@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="styles.css">
     <title>TENTO_ONE</title>
 </head>
-<!-- WRONG WAY! DON"T DO THIS <style>
-    body {font-family: Arial, Helvetica, sans-serif};
-</style> -->
 
 <body>
     <header>
@@ -19,25 +16,30 @@
         <h2 id="following" class="first-header-class">the chances of experiencing something as beautiful as life are
             ten-to-one.</h2>
     </header>
-    <main>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="what.html">what is there?</a></li>
+            <li><a href="things-i-like.html" class="lastitem">about.</a></li>
+        </ul>
+    </nav>
+    <main id="homepage">
         <h3 id="hi">OH, HELLO THERE</h3>
-        <p>in a rapidly evolving world full of seemingly endless despair, there is wonder and beauty if you dare look
+        <p id="hello-world">in a rapidly evolving world full of seemingly endless despair, there is wonder and beauty if you dare look
             hard enough. except, you really don't need to look hard. there is magic everywhere, even in the mundane. in
             children's laughter, a cup of coffee, in watching cars whizz by. every day we are so busy with everything we
             must do, all the deadlines we must meet, all the appointments we must catch, that we forget to slow down.
             life goes by so fast. this page is a depiction of the world through the eyes of a 20-year old college
             student, hoping to convince you there is a lot of beauty in this life. </p>
-        <p>
-            <q><em>THERE IS BEAUTY IN EVERYTHING, EVEN IN SILENCE AND DARKNESS.</em></q> - Helen Keller
-        </p>
         <img src="images/street-banner.jpg" id="pretty-green-banner"
             alt="three pictures of various streets in the daytime with lots of greenery">
         <img src="images/pretty-green-banner.jpg" id="street-banner"
             alt="one picture of tea with dried flowers, one of koi fish, and one of green plants">
+        <br>
         <section id="what-is-there" class="minis">
             <h2>WHAT IS THERE?</h2>
             <p>what is there in this world?</p>
-            <ul>
+            <ul class="star">
                 <li>there is ART</li>
                 <li>there is HOPE</li>
                 <li>there is LOVE</li>
@@ -58,7 +60,7 @@
             </ul>
             <div></div>
         </section>
-        <section id="rules" class="minis">
+        <section id="reminders" class="minis">
             <h2>REMINDERS.</h2>
             <ol>
                 <li>everyone makes mistakes</li>
@@ -67,9 +69,8 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>&copy; kirsten paterno 2024 </p>
-    </footer>
+    <p><a href="#top">let's go back to the top!</a></p>
+    <footer> &copy; kirsten paterno 2024</footer>
 </body>
 
 </html>

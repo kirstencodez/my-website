@@ -1,11 +1,44 @@
-
-h1, h2, h3 {
-    color:#ffebcd;
-    text-align:center;
-    border: 1.5px solid white;
-    margin: .5em 1em;
-    padding: .5em 1em;
+#nav-menu ul {
+    list-style-type: none;
+    padding: 0;
 }
+#nav-menu ul li {
+    float: left;
+    width: 33%;
+}
+#nav-menu ul li a{
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #171717;
+    color: #ffebcd;
+    font-weight: bold;
+    border: 2px solid #ffebcd;
+    border-right: 2px solid #ffebcd;
+}
+#nav-menu ul li a.lastitem {
+    border-right: 2px solid #ffebcd;
+}
+#nav-menu ul li a.current{
+    color: #ffff00;
+}
+#nav-menu {
+    padding-bottom:5em;
+    margin: auto;
+    width: 100%;
+}
+
+#nav-menu ul li a:hover {
+    background-color:#000000;
+}
+
+h1,h2 {
+    text-align: center;
+    color:#ffebcd;
+}
+
+
 
 /*UNIVERSAL SELECTOR */
 * {
@@ -15,12 +48,13 @@ h1, h2, h3 {
 main{
     column-count: 2;
     column-gap: 5px;
-    column-rule: 2px dashed white;
+    column-rule: 2px dashed #ffebcd;
 }
+
 h1 {
-    font-size:3rem;
+    font-size:4rem;
     text-align:center;
-    border: 1.5px solid white;
+    border: 1.5px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em 1em;
 }
@@ -30,7 +64,7 @@ img{
     margin: 0em 0em 0em 10em;
 }
 body {
-    background-color:rgb(33, 33, 33);
+    background-color:#212121;
 }
 
 p {
@@ -42,12 +76,17 @@ footer {
 }
 
 /*ID selector*/
+
 #spotify {
     margin:0.5px 1px 0.5px 1px;
-    background: linear-gradient(45deg, white 0%, rgb(0, 145, 255) 100%);
+    background: linear-gradient(45deg, #ffffff 0%, #0091ff 100%);
     border: 3px solid #ffffff;
 }
 
 #it-me {
     text-align: center;
+}
+
+main, h1 {
+    clear:left;
 }
