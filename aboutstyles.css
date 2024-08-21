@@ -20,9 +20,7 @@
 #nav-menu ul li a.lastitem {
     border-right: 2px solid #ffebcd;
 }
-#nav-menu ul li a.current{
-    color: #ffff00;
-}
+
 #nav-menu {
     padding-bottom:5em;
     margin: auto;
@@ -78,6 +76,7 @@ p {
 }
 
 footer {
+    font-style: italic;
     margin: 100px 10px 10px 10px
 }
 
@@ -95,9 +94,11 @@ main, h1 {
     clear:left;
 }
 
-@media only screen and (max-width:630px) {
+/*i added this here because my text escapes the box before 685.4 pixels!*/
+
+@media only screen and (max-width:685px) {
     h1 {
-        font-size:220%;
+        font-size:250%;
         text-align:center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;

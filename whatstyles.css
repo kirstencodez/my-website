@@ -35,10 +35,6 @@
     border-right: 2px solid #ffebcd;
 }
 
-#nav-menu ul li a.current {
-    color: #ffff00;
-}
-
 #nav-menu ul li a:hover {
     background-color:#000000;
 }
@@ -93,7 +89,12 @@ main,h1 {
     color:#f7d7a9
 }
 
-@media only screen and (max-width:630px) {
+footer {
+    font-style: italic;
+}
+/*i added italics to the footer as i liked the way it looked*/
+
+@media only screen and (max-width:685px) {
     h1 {
         font-size:250%;
         text-align:center;
