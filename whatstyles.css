@@ -48,11 +48,11 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
-    text-align: center;
-    border: 1.5px solid #ffebcd;
+    font-size:4rem;
+    text-align:center;
+    border: 2px solid #ffebcd;
     margin: .5em 1em;
-    padding: .5em 1em;
+    padding: .5em;
 }
 
 
@@ -63,6 +63,7 @@ h1,h2 {
 main,h1 {
     clear: left;
 }
+
 
 #love {
     text-align: left;
@@ -90,4 +91,14 @@ main,h1 {
 #unsent-project a:hover {
     font-size: 150%;
     color:#f7d7a9
+}
+
+@media only screen and (max-width:630px) {
+    h1 {
+        font-size:250%;
+        text-align:center;
+        border: 2px solid #ffebcd;
+        margin: .5em 1em;
+        padding: .5em;
+    }
 }

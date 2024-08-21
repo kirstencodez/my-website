@@ -38,7 +38,14 @@ h1,h2 {
     color:#ffebcd;
 }
 
+#about {
+text-align: left;
+}
 
+h3 {
+    color:#ffebcd;
+    text-align: left;
+}
 
 /*UNIVERSAL SELECTOR */
 * {
@@ -46,19 +53,18 @@ h1,h2 {
 }
 /*TYPE SELECTOR */
 main{
-    column-count: 2;
+    column-count: 3;
     column-gap: 5px;
     column-rule: 2px dashed #ffebcd;
 }
 
 h1 {
     font-size:4rem;
-    text-align:center;
-    border: 1.5px solid #ffebcd;
+    text-align:center; 
+    border: 2px solid #ffebcd;
     margin: .5em 1em;
-    padding: .5em 1em;
+    padding: .5em;
 }
-
 img{
     width:60%;
     margin: 0em 0em 0em 10em;
@@ -75,13 +81,11 @@ footer {
     margin: 100px 10px 10px 10px
 }
 
-/*ID selector*/
-
-#spotify {
-    margin:0.5px 1px 0.5px 1px;
-    background: linear-gradient(45deg, #ffffff 0%, #0091ff 100%);
-    border: 3px solid #ffffff;
+br {
+    clear: both;
 }
+
+/*ID selector*/
 
 #it-me {
     text-align: center;
@@ -89,4 +93,21 @@ footer {
 
 main, h1 {
     clear:left;
+}
+
+@media only screen and (max-width:630px) {
+    h1 {
+        font-size:220%;
+        text-align:center;
+        border: 2px solid #ffebcd;
+        margin: .5em 1em;
+        padding: .5em;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    #about h3 p {
+        float:none;
+        width:100%;
+    }
 }
