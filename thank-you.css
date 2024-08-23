@@ -34,21 +34,10 @@
     font-size: 150%;
 }
 
+/*main elements*/
+
 body {
     background-color: #212121;
-}
-
-#creation {
-    text-align: left;
-}
-
-body {
-    background-color: #212121
-}
-
-#text,
-#submit {
-    color: #212121;
 }
 
 h1 {
@@ -57,6 +46,8 @@ h1 {
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 2px black
 }
 
 h1,
@@ -64,62 +55,34 @@ h2 {
     text-align: center;
 }
 
-
-#faq {
-    font-size: 3.5rem;
-    text-align: left;
-    color: #171717;
-}
-
-#reminder {
-    color: #171717;
-}
-
-.headers,
-p,
-ul,
-li {
-    color: #171717;
-}
-
-main,
-h1 {
-    clear: left;
-}
+/*class selector*/
 
 .main {
-    background-color: #1e00ff;
+    background-color: #31b704;
     padding: 2em;
     margin: 2em auto;
-    border: 5px solid #1e00ff;
+    border: 5px solid #31b704;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;
 }
 
-footer {
-    font-style: italic;
+/*id selector*/
+#thanks {
+    font-size: 3rem;
 }
 
-.content-wrap {
-    display: flex;
-    align-items: flex-start;
-    gap: 1em;
-    flex-wrap: wrap;
-}
-
-.text {
-    flex: 2;
-    overflow: hidden;
-    padding: 1em;
+#thanks,
+#bye {
+    text-align: center;
+    color: #212121;
 }
 
 /*grid*/
 
-/*grid about */
 .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1em;
 }
 
@@ -146,7 +109,4 @@ footer {
         display: block;
         margin: .5rem 0;
     }
-}
-@media only screen and (max-width:685px) {
-
 }

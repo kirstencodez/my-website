@@ -9,7 +9,7 @@
     background-color: #171717;
     padding: 1rem;
     text-align: center;
-    border: .01rem solid #ffffff;
+    border: .01rem solid #ffebcd;
 }
 
 #nav-container ul {
@@ -34,45 +34,46 @@
     font-size: 150%;
 }
 
-/*main elements*/
-
 body {
     background-color: #212121;
 }
 
+#creation {
+    text-align: left;
+}
+body {
+    background-color: #212121
+}
+#text, #submit {
+    color:#212121;
+}
 h1 {
     font-size:4rem;
     text-align:center;
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
-    text-shadow: 1px 1px 2px black
-}
-
-footer {
-    font-style: italic;
 }
 
 h1,h2 {
     text-align: center;
 }
 
+
+#faq {
+    font-size:3.5rem;
+    text-align: left;
+    color:#171717;
+}
+
+.headers, p, ul, li {
+    color:#171717;
+}
+
 main,h1 {
     clear: left;
 }
 
-/*class attributes*/
-
-.solutions{
-    text-align: left;
-    font-size: 200%;
-    margin: 2.5rem 0;
-}
-
-.banner {
-    width: 45%;
-    margin-top: 2em;
-}
 .main {
     background-color:#1e00ff;
     padding: 2em;
@@ -83,41 +84,37 @@ main,h1 {
     overflow: hidden;
 }
 
-/* ID SELECTOR */
-
-#LOVE {
-    color: #ff0000;
-    text-shadow: 1px 1px 2px black
-}
-#WONDER {
-    color:rgb(226, 168, 22);
-    text-shadow: 1px 1px 2px black
-}
-#show-me {
-    text-align: left;
-    margin-top: 2em;
-}
-
-#humans-of-ny {
-    margin-top: 2em;
-}
-
-#humans-of-ny a:hover {
-    font-size: 150%;
-    color:#f7d7a9
-}
-
-#unsent-project a:hover {
-    font-size: 150%;
-    color:#f7d7a9
-}
-
-
-#show-me a:hover {
-    font-size: 110%;
+footer {
     font-style: italic;
-    text-shadow: 1px 1px 2px black
 }
+
+.content-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 2;
+    overflow: hidden;
+    padding: 1em;
+}
+
+/*grid*/
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.column {
+    padding: 1em;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
 
 /*media queries*/
 

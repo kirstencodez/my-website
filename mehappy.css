@@ -1,7 +1,7 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
 }
 
 /*navigation*/
@@ -14,13 +14,13 @@
 
 #nav-container ul {
     list-style-type: none;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 #nav-container ul li {
     display: inline;
-    margin:2rem;
+    margin: 2rem;
 }
 
 #nav-container ul li a {
@@ -42,8 +42,8 @@ body {
 
 
 h1 {
-    font-size:4rem;
-    text-align:center;
+    font-size: 4rem;
+    text-align: center;
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
@@ -51,7 +51,7 @@ h1 {
     text-shadow: 1px 1px 2px black
 }
 
-h1,h2 {
+h1, h2 {
     text-align: center;
 }
 
@@ -59,13 +59,15 @@ h3 {
     font-size: 1.3em;
 }
 
-main,h1 {
+main,
+h1 {
     clear: left;
 }
 
-h3, p   {
-    color:#171717;
+h3,p {
+    color: #171717;
 }
+
 
 footer {
     font-style: italic;
@@ -74,7 +76,7 @@ footer {
 /*class attributes*/
 
 .main {
-    background-color:#1e00ff;
+    background-color: #1e00ff;
     padding: 2em;
     margin: 2em auto;
     border: 5px solid #1e00ff;
@@ -90,17 +92,23 @@ footer {
 }
 
 #keeley {
-    width:100%;
+    width: 100%;
 }
-#beom,#yuyu {
-    width:45%;
+
+#beom,
+#yuyu {
+    width: 45%;
+}
+
+#japan {
+    width:100%;
 }
 
 /*grid about */
 .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1em;
 }
 
 .column {
@@ -114,8 +122,8 @@ footer {
 
 @media only screen and (max-width:685px) {
     h1 {
-        font-size:250%;
-        text-align:center;
+        font-size: 250%;
+        text-align: center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;
         padding: .5em;
@@ -125,7 +133,7 @@ footer {
 @media only screen and (max-width:685px) {
     #nav-container ul li {
         display: block;
-        margin:.5rem 0;
+        margin: .5rem 0;
     }
 }
 
@@ -136,7 +144,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:679.2px) {
+@media only screen and (max-width:670.4) {
     #mini-head {
         font-size: 2.2rem;
     }
@@ -147,5 +155,18 @@ footer {
         display: block;
         margin: .5rem;
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:904px) {
+    .grid-layout {
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    .column {
+        margin:1em;
+        align-items: center;
+        width: 75%;
     }
 }

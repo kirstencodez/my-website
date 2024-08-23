@@ -1,7 +1,7 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
 }
 
 /*navigation*/
@@ -14,13 +14,13 @@
 
 #nav-container ul {
     list-style-type: none;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 #nav-container ul li {
     display: inline;
-    margin:2rem;
+    margin: 2rem;
 }
 
 #nav-container ul li a {
@@ -28,8 +28,8 @@
     padding: 1em 0em;
     text-decoration: none;
     font-weight: bold;
-    font-size:1em;
-    color:#ffffff;
+    font-size: 1em;
+    color: #ffffff;
 }
 
 #nav-container ul li a:hover {
@@ -43,19 +43,21 @@ body {
 }
 
 h1 {
-    font-size:4rem;
-    text-align:center;
+    font-size: 4rem;
+    text-align: center;
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
     text-shadow: 1px 1px 2px black
 }
 
-h1,h2 {
+h1,
+h2 {
     text-align: center;
 }
 
-main,h1 {
+main,
+h1 {
     clear: left;
 }
 
@@ -70,8 +72,9 @@ p {
     margin: 1rem 0rem 1rem 0rem;
 }
 
-q, p {
-    color:#171717;
+q,
+p {
+    color: #171717;
 }
 
 img {
@@ -95,7 +98,7 @@ a {
 }
 
 .main {
-    background-color:#31b704;
+    background-color: #31b704;
     padding: 2em;
     margin: 2em auto;
     border: 5px solid #31b704;
@@ -104,8 +107,9 @@ a {
     overflow: hidden;
 }
 
-.love-sites, a {
-    color:#171717
+.love-sites,
+a {
+    color: #171717
 }
 
 
@@ -115,22 +119,23 @@ a {
 #LOVE {
     font-size: 4.8rem;
     color: #ffffff;
-    width:30%;
-    margin:1rem 0rem 2rem 0rem;
+    width: 30%;
+    margin: 1rem 0rem 2rem 0rem;
     text-align: left;
 }
 
 a:hover {
-    color:#171717;
+    color: #171717;
     font-size: 200%;
 }
 
 #footer {
     font-style: italic;
-    font-size:1rem;
+    font-size: 1rem;
     color: #ffebcd;
 
 }
+
 /*grid about */
 .grid-layout {
     display: grid;
@@ -148,8 +153,8 @@ a:hover {
 
 @media only screen and (max-width:685px) {
     h1 {
-        font-size:250%;
-        text-align:center;
+        font-size: 250%;
+        text-align: center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;
         padding: .5em;
@@ -159,19 +164,23 @@ a:hover {
 @media only screen and (max-width:685px) {
     #nav-container ul li {
         display: block;
-        margin:.5rem 0;
+        margin: .5rem 0;
     }
 }
 
 @media only screen and (max-width:685px) {
     .banner1 {
-        width:70%;
+        width: 70%;
     }
 }
 
 @media only screen and (max-width:685px) {
-    #nav1, #nav2, #nav3,#nav4 {
+
+    #nav1,
+    #nav2,
+    #nav3,
+    #nav4 {
         display: block;
-        margin:.5rem 0;
+        margin: .5rem 0;
     }
 }

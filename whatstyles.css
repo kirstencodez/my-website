@@ -1,7 +1,7 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #ffffff;
+    color: #ffffff;
 }
 
 /*navigation*/
@@ -9,18 +9,18 @@
     background-color: #171717;
     padding: 1rem;
     text-align: center;
-    border: .01rem solid #ffebcd;
+    border: .01rem solid #ffffff;
 }
 
 #nav-container ul {
     list-style-type: none;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 #nav-container ul li {
     display: inline;
-    margin:2rem;
+    margin: 2rem;
 }
 
 #nav-container ul li a {
@@ -41,61 +41,95 @@ body {
 }
 
 h1 {
-    font-size:4rem;
-    text-align:center;
+    font-size: 4rem;
+    text-align: center;
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
-    /* offset-x | offset-y | blur-radius | color */
     text-shadow: 1px 1px 2px black
 }
 
-h1,h2 {
+footer {
+    font-style: italic;
+}
+
+h1,
+h2 {
     text-align: center;
 }
 
-/*class selector*/
+main,
+h1 {
+    clear: left;
+}
+
+/*class attributes*/
+
+.solutions {
+    text-align: left;
+    font-size: 200%;
+    margin: 2.5rem 0;
+}
+
+.banner {
+    width: 45%;
+    margin-top: 2em;
+}
 
 .main {
-    background-color:#31b704;
+    background-color: #1e00ff;
     padding: 2em;
     margin: 2em auto;
-    border: 5px solid #31b704;
+    border: 5px solid #1e00ff;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;
 }
 
-/*id selector*/
-#thanks {
-    font-size:3rem;
+/* ID SELECTOR */
+
+#LOVE {
+    color: #ff0000;
+    text-shadow: 1px 1px 2px black
 }
 
-#thanks, #bye {
-    text-align: center;
-    color: #212121;
+#WONDER {
+    color: rgb(226, 168, 22);
+    text-shadow: 1px 1px 2px black
 }
 
-/*grid*/
-
-.grid-layout {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
+#show-me {
+    text-align: left;
+    margin-top: 2em;
 }
 
-.column {
-    padding: 1em;
-    background: #f1f1f1;
-    border-radius: 8px;
+#humans-of-ny {
+    margin-top: 2em;
+}
+
+#humans-of-ny a:hover {
+    font-size: 150%;
+    color: #f7d7a9
+}
+
+#unsent-project a:hover {
+    font-size: 150%;
+    color: #f7d7a9
+}
+
+
+#show-me a:hover {
+    font-size: 110%;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black
 }
 
 /*media queries*/
 
 @media only screen and (max-width:685px) {
     h1 {
-        font-size:250%;
-        text-align:center;
+        font-size: 250%;
+        text-align: center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;
         padding: .5em;
@@ -105,6 +139,6 @@ h1,h2 {
 @media only screen and (max-width:685px) {
     #nav-container ul li {
         display: block;
-        margin:.5rem 0;
+        margin: .5rem 0;
     }
 }
