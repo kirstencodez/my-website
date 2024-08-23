@@ -64,6 +64,11 @@ h2 {
 #faq {
     font-size:3.5rem;
     text-align: left;
+    color:#171717;
+}
+
+.headers, p, ul, li {
+    color:#171717;
 }
 
 main,h1 {
@@ -97,8 +102,22 @@ footer {
     padding: 1em;
 }
 
-/*i added italics to the footer as i liked the way it looked*/
+/*grid*/
 
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.column {
+    padding: 1em;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+
+/*media queries*/
 
 @media only screen and (max-width:685px) {
     h1 {
@@ -116,4 +135,3 @@ footer {
         margin:.5rem 0;
     }
 }
-/*grid about */

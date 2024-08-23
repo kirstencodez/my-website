@@ -63,6 +63,16 @@ main,h1 {
     clear: left;
 }
 
+h3, p   {
+    color:#171717;
+}
+
+footer {
+    font-style: italic;
+}
+
+/*class attributes*/
+
 .main {
     background-color:#31b704;
     padding: 2em;
@@ -73,18 +83,10 @@ main,h1 {
     overflow: hidden;
 }
 
+/*id selectors*/
+
 #mini-head {
     font-size: 3rem;
-    text-shadow: 1px 1px 1px black
-}
-
-h3, p   {
-    color:#171717;
-}
-
-
-footer {
-    font-style: italic;
 }
 
 #keeley {
