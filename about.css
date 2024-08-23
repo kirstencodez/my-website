@@ -1,14 +1,15 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #ffffff;
+    color: #ffebcd;
 }
 
+/*navigation*/
 #nav-container {
     background-color: #171717;
     padding: 1rem;
     text-align: center;
-    border: .01rem solid #ffffff;
+    border: .01rem solid #ffebcd;
 }
 
 #nav-container ul {
@@ -33,81 +34,57 @@
     font-size: 150%;
 }
 
+
 /*main elements*/
 
-body {
-    background-color: #212121;
+#creation {
+    text-align: left;
 }
-
-img {
-    width: 35%; 
-    align-items: center;
+body {
+    background-color: #212121
 }
 
 h1 {
-    font-size: 4rem;
-    text-align: center;
-    border: 2px solid #ffffff;
-    margin: .5em 1em ;
+    font-size:4rem;
+    text-align:center;
+    border: 2px solid #ffebcd;
+    margin: .5em 1em;
     padding: .5em;
 }
 
-h3 {
-    font-size: 250%;
-    margin: 2rem 0;
+h1,h2 {
+    text-align: left;
+}
+
+#faq {
+    font-size:200%;
+}
+main,h1 {
+    clear: left;
+}
+
+.main {
+    background-color:#31b704;
+    padding: 2em;
+    margin: 2em auto;
+    border: 5px solid#31b704;
+    border-radius: 10px;
+    max-width: 80%;
+    overflow: hidden;
 }
 
 footer {
     font-style: italic;
 }
 
-/* ID SELECTOR */
-#hello-there {
-    color: #fffb00;
-}
 
-/* RELATIONAL SELECTOR */
-section#what-is-there>ul {
-    color:  #ffffff;
-}
+/*i added italics to the footer as i liked the way it looked*/
 
-section#abt_site>ul {
-    color: #ffffff;
-}
-
-/* COMBINATION SELECTOR */
-h1,h2 {
-    text-align: center;
-}
-#hi, #hello-there {
-    font-style: italic;
-    text-shadow: 1px 1px 2px black
-}
-
-br {
-    clear: both;
-}
-
-div#images1, div#images2 {
-    display:row;
-    justify-content: center;
-}
-
-.main {
-    background-color:#1e00ff;
-    padding: 2em;
-    margin: 2em auto;
-    border: 5px solid #1e00ff;
-    border-radius: 10px;
-    max-width: 80%;
-    overflow: hidden;
-}
-/*media queries*/
 
 @media only screen and (max-width:685px) {
     h1 {
-        font-size: 250%;
-        text-align: center;
+        font-size:250%;
+        text-align:center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;
         padding: .5em;
@@ -116,7 +93,9 @@ div#images1, div#images2 {
 
 @media only screen and (max-width:685px) {
     #nav-container ul li {
-        display:block;
+        display: block;
         margin:.5rem 0;
     }
 }
+
+/*grid about */

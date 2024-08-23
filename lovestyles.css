@@ -1,14 +1,15 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #ffffff;
+    color: #ffebcd;
 }
 
+/*navigation*/
 #nav-container {
     background-color: #171717;
     padding: 1rem;
     text-align: center;
-    border: .01rem solid #ffffff;
+    border: .01rem solid #ffebcd;
 }
 
 #nav-container ul {
@@ -33,68 +34,52 @@
     font-size: 150%;
 }
 
-/*main elements*/
-
 body {
     background-color: #212121;
 }
 
-img {
-    width: 35%; 
-    align-items: center;
-}
-
 h1 {
-    font-size: 4rem;
-    text-align: center;
-    border: 2px solid #ffffff;
-    margin: .5em 1em ;
+    font-size:4rem;
+    text-align:center;
+    border: 2px solid #ffebcd;
+    margin: .5em 1em;
     padding: .5em;
 }
 
-h3 {
-    font-size: 250%;
-    margin: 2rem 0;
-}
-
-footer {
-    font-style: italic;
-}
-
-/* ID SELECTOR */
-#hello-there {
-    color: #fffb00;
-}
-
-/* RELATIONAL SELECTOR */
-section#what-is-there>ul {
-    color:  #ffffff;
-}
-
-section#abt_site>ul {
-    color: #ffffff;
-}
-
-/* COMBINATION SELECTOR */
 h1,h2 {
     text-align: center;
 }
-#hi, #hello-there {
+
+main,h1 {
+    clear: left;
+}
+
+
+footer {
     font-style: italic;
-    text-shadow: 1px 1px 2px black
 }
 
 br {
     clear: both;
 }
 
-div#images1, div#images2 {
-    display:row;
-    justify-content: center;
+.love-sites {
+    margin: 2rem;
+}
+/*i added italics to the footer as i liked the way it looked*/
+
+.banner1 {
+    float: left;
+    width: 25%
+}
+
+#LOVE {
+    font-size: 2rem;
+
 }
 
 .main {
-    background-color:#1e00ff;
+    background-color:#1e00ff;;
     padding: 2em;
     margin: 2em auto;
     border: 5px solid #1e00ff;
@@ -102,12 +87,27 @@ div#images1, div#images2 {
     max-width: 80%;
     overflow: hidden;
 }
-/*media queries*/
 
+#humans-of-ny a:hover {
+    color:#f7d7a9;
+    font-size: 150%;
+}
+
+#unsent-project a:hover {
+    color:#f7d7a9;
+    font-size: 150%;
+}
+
+    @media only screen and (max-width:685px) {
+        .banner1 {
+            float: center;
+            width:40%
+    }
+}
 @media only screen and (max-width:685px) {
     h1 {
-        font-size: 250%;
-        text-align: center;
+        font-size:250%;
+        text-align:center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;
         padding: .5em;
@@ -116,7 +116,7 @@ div#images1, div#images2 {
 
 @media only screen and (max-width:685px) {
     #nav-container ul li {
-        display:block;
+        display: block;
         margin:.5rem 0;
     }
 }

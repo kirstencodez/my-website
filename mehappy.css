@@ -1,14 +1,15 @@
+/*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffebcd;
 }
 
+/*navigation*/
 #nav-container {
-    background-color: #171717;
-    padding: 1rem;
-    text-align: center;
-    border: .01rem solid #ffebcd;
-}
+        padding: 1rem;
+        text-align: center;
+        border: .01rem solid #ffebcd;
+    }
 
 #nav-container ul {
     list-style-type: none;
@@ -32,11 +33,12 @@
     font-size: 150%;
 }
 
-/*main elements*/
 
+/*main elements*/
 body {
-    background-color: #212121
+    background-color:#171717;
 }
+
 
 h1 {
     font-size:4rem;
@@ -44,77 +46,64 @@ h1 {
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
+    /* offset-x | offset-y | blur-radius | color */
     text-shadow: 1px 1px 2px black
 }
-
 
 h1,h2 {
     text-align: center;
 }
 
+
 main,h1 {
     clear: left;
 }
 
-
-.solutions{
-    text-align: left;
-    font-size: 200%;
-    margin: 2.5rem 0;
-}
-
-#LOVE {
-    color: #ff0000;
-    text-shadow: 1px 1px 2px black
-}
-#WONDER {
-    color:rgb(226, 168, 22);
-    text-shadow: 1px 1px 2px black
-}
-#show-me {
-    text-align: left;
-    margin-top: 2em;
-}
-
-#humans-of-ny {
-    margin-top: 2em;
-}
-
-.banner {
-    width: 45%;
-    margin-top: 2em;
-}
 .main {
-    background-color:#1e00ff;
+    background-color:#31b704;
     padding: 2em;
     margin: 2em auto;
-    border: 5px solid #1e00ff;
+    border: 5px solid #31b704;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;
 }
-#humans-of-ny a:hover {
-    font-size: 150%;
-    color:#f7d7a9
+
+#mini-header1 {
+    font-size:200%;
 }
 
-#unsent-project a:hover {
-    font-size: 150%;
-    color:#f7d7a9
+h3, p   {
+    color:#171717;
 }
+
 
 footer {
     font-style: italic;
 }
 
+#keeley {
+    width:100%;
+}
+#beom,#yuyu {
+    width:45%;
+}
 
-#show-me a:hover {
-    font-size: 110%;
-    font-style: italic;
-    text-shadow: 1px 1px 2px black
+/*grid about */
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.column {
+    padding: 1em;
+    background: #f1f1f1;
+    border-radius: 8px;
 }
 
 /*i added italics to the footer as i liked the way it looked*/
+
 
 @media only screen and (max-width:685px) {
     h1 {
