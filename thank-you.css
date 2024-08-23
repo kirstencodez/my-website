@@ -28,8 +28,6 @@
     padding: 1em 0em;
     text-decoration: none;
     font-weight: bold;
-    font-size:1em;
-    color:#ffffff;
 }
 
 #nav-container ul li a:hover {
@@ -48,6 +46,7 @@ h1 {
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
+    /* offset-x | offset-y | blur-radius | color */
     text-shadow: 1px 1px 2px black
 }
 
@@ -55,44 +54,7 @@ h1,h2 {
     text-align: center;
 }
 
-main,h1 {
-    clear: left;
-}
-
-
-br {
-    clear: both;
-}
-
-p {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 1rem 0rem 1rem 0rem;
-}
-
-q, p {
-    color:#171717;
-}
-
-img {
-    border-radius: 8px;
-    margin: 0em 0em 1em 0em;
-}
-
-a {
-    font-size: 1.8rem;
-}
-
-/*class id*/
-
-.love-sites {
-    margin: 2rem;
-}
-
-.banner1 {
-    justify-content: center;
-    width: 30rem;
-}
+/*class selector*/
 
 .main {
     background-color:#31b704;
@@ -104,34 +66,18 @@ a {
     overflow: hidden;
 }
 
-.love-sites, a {
-    color:#171717
+/*id selector*/
+#thanks {
+    font-size:3rem;
 }
 
-
-
-/*id selectors*/
-
-#LOVE {
-    font-size: 4.8rem;
-    color: #ffffff;
-    width:30%;
-    margin:1rem 0rem 2rem 0rem;
-    text-align: left;
+#thanks, #bye {
+    text-align: center;
+    color: #212121;
 }
 
-a:hover {
-    color:#171717;
-    font-size: 200%;
-}
+/*grid*/
 
-#footer {
-    font-style: italic;
-    font-size:1rem;
-    color: #ffebcd;
-
-}
-/*grid about */
 .grid-layout {
     display: grid;
     grid-template-columns: 1fr;
@@ -158,19 +104,6 @@ a:hover {
 
 @media only screen and (max-width:685px) {
     #nav-container ul li {
-        display: block;
-        margin:.5rem 0;
-    }
-}
-
-@media only screen and (max-width:685px) {
-    .banner1 {
-        width:70%;
-    }
-}
-
-@media only screen and (max-width:685px) {
-    #nav1, #nav2, #nav3,#nav4 {
         display: block;
         margin:.5rem 0;
     }

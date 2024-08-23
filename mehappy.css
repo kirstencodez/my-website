@@ -74,10 +74,10 @@ footer {
 /*class attributes*/
 
 .main {
-    background-color:#31b704;
+    background-color:#1e00ff;
     padding: 2em;
     margin: 2em auto;
-    border: 5px solid #31b704;
+    border: 5px solid #1e00ff;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;

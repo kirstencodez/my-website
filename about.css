@@ -1,7 +1,7 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffebcd;
+    color:  #ffffff;
 }
 
 /*navigation*/
@@ -44,7 +44,9 @@ body {
 body {
     background-color: #212121
 }
-
+#text, #submit {
+    color:#212121;
+}
 h1 {
     font-size:4rem;
     text-align:center;
@@ -57,9 +59,6 @@ h1,h2 {
     text-align: center;
 }
 
-h2 {
-    text-align: left;
-}
 
 #faq {
     font-size:3.5rem;
@@ -76,10 +75,10 @@ main,h1 {
 }
 
 .main {
-    background-color:#31b704;
+    background-color:#1e00ff;
     padding: 2em;
     margin: 2em auto;
-    border: 5px solid#31b704;
+    border: 5px solid #1e00ff;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;
