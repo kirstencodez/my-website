@@ -78,6 +78,10 @@ h2 {
     color: #212121;
 }
 
+img {
+    align-items: center;
+}
+
 /*grid*/
 
 .grid-layout {
