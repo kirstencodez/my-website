@@ -1,13 +1,15 @@
+/*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffebcd;
+    color:  #ffffff;
 }
 
+/*navigation*/
 #nav-container {
     background-color: #171717;
     padding: 1rem;
     text-align: center;
-    border: .01rem solid #ffebcd;
+    border: .01rem solid #ffffff;
 }
 
 #nav-container ul {
@@ -35,7 +37,7 @@
 /*main elements*/
 
 body {
-    background-color: #212121
+    background-color: #212121;
 }
 
 h1 {

@@ -34,8 +34,9 @@
     font-size: 150%;
 }
 
-
-/*main elements*/
+body {
+    background-color: #212121;
+}
 
 #creation {
     text-align: left;
@@ -53,12 +54,18 @@ h1 {
 }
 
 h1,h2 {
+    text-align: center;
+}
+
+h2 {
     text-align: left;
 }
 
 #faq {
-    font-size:200%;
+    font-size:3.5rem;
+    text-align: left;
 }
+
 main,h1 {
     clear: left;
 }
@@ -77,6 +84,18 @@ footer {
     font-style: italic;
 }
 
+.content-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 2;
+    overflow: hidden;
+    padding: 1em;
+}
 
 /*i added italics to the footer as i liked the way it looked*/
 
@@ -97,5 +116,4 @@ footer {
         margin:.5rem 0;
     }
 }
-
 /*grid about */

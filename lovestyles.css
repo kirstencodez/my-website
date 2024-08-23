@@ -44,6 +44,7 @@ h1 {
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
+    text-shadow: 1px 1px 2px black
 }
 
 h1,h2 {
@@ -69,20 +70,21 @@ br {
 /*i added italics to the footer as i liked the way it looked*/
 
 .banner1 {
-    float: left;
-    width: 25%
+    justify-content: center;
+    width: 30rem;
 }
 
 #LOVE {
-    font-size: 2rem;
-
+    font-size: 4rem;
+    width:30%;
+    margin:.5rem;
 }
 
 .main {
-    background-color:#1e00ff;;
+    background-color:#31b704;
     padding: 2em;
     margin: 2em auto;
-    border: 5px solid #1e00ff;
+    border: 5px solid #31b704;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;
@@ -98,12 +100,6 @@ br {
     font-size: 150%;
 }
 
-    @media only screen and (max-width:685px) {
-        .banner1 {
-            float: center;
-            width:40%
-    }
-}
 @media only screen and (max-width:685px) {
     h1 {
         font-size:250%;
@@ -118,5 +114,11 @@ br {
     #nav-container ul li {
         display: block;
         margin:.5rem 0;
+    }
+}
+
+@media only screen and (max-width:685px) {
+    .banner1 {
+        width:70%;
     }
 }
