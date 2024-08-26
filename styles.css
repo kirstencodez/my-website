@@ -4,6 +4,7 @@
     color: #ffffff;
 }
 
+
 /*navigation*/
 #nav-container {
     background-color: #171717;
@@ -38,6 +39,7 @@
 
 body {
     background-color: #212121;
+    font-family: "Titillium Web", sans-serif;
 }
 
 img {

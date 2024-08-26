@@ -1,7 +1,7 @@
 /*universal selector*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:  #ffffff;
+    color:  #171717;
 }
 
 /*navigation*/
@@ -14,13 +14,13 @@
 
 #nav-container ul {
     list-style-type: none;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 #nav-container ul li {
     display: inline;
-    margin:2rem;
+    margin: 2rem;
 }
 
 #nav-container ul li a {
@@ -36,46 +36,62 @@
 
 body {
     background-color: #212121;
+    font-family: "Titillium Web", sans-serif;
 }
 
 #creation {
     text-align: left;
 }
+
 body {
     background-color: #212121
 }
-#text, #submit {
-    color:#212121;
+
+#text,
+#submit {
+    color: #212121;
 }
+
 h1 {
-    font-size:4rem;
-    text-align:center;
+    font-size: 4rem;
+    text-align: center;
     border: 2px solid #ffebcd;
     margin: .5em 1em;
     padding: .5em;
 }
 
-h1,h2 {
+h1,
+h2, a {
     text-align: center;
+    color:white;
 }
 
+ul, li, p, {
+    color: #171717;
 
+}
 #faq {
-    font-size:3.5rem;
+    font-size: 3.5rem;
     text-align: left;
-    color:#171717;
+    color: #171717;
 }
 
-.headers, p, ul, li {
-    color:#171717;
+#reminder {
+    color: #171717;
 }
 
-main,h1 {
+#toro-pleased {
+    align-items: center;
+}
+
+
+main,
+h1 {
     clear: left;
 }
 
 .main {
-    background-color:#1e00ff;
+    background-color: #1e00ff;
     padding: 2em;
     margin: 2em auto;
     border: 5px solid #1e00ff;
@@ -84,9 +100,6 @@ main,h1 {
     overflow: hidden;
 }
 
-footer {
-    font-style: italic;
-}
 
 .content-wrap {
     display: flex;
@@ -103,6 +116,7 @@ footer {
 
 /*grid*/
 
+/*grid about */
 .grid-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,13 +129,12 @@ footer {
     border-radius: 8px;
 }
 
-
 /*media queries*/
 
 @media only screen and (max-width:685px) {
     h1 {
-        font-size:250%;
-        text-align:center;
+        font-size: 250%;
+        text-align: center;
         border: 2px solid #ffebcd;
         margin: .5em 1em;
         padding: .5em;
@@ -131,6 +144,32 @@ footer {
 @media only screen and (max-width:685px) {
     #nav-container ul li {
         display: block;
-        margin:.5rem 0;
+        margin: .5rem 0;
     }
+}
+
+@media only screen and (max-width:770px) {
+    .grid-layout {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    
+    .column {
+        margin:20%;
+        width:70%;
+    }
+}
+
+@media only screen and (max-width:595.20px) {
+    #faq {
+        font-size: 200%;
+        text-align: left;
+        color: #171717;
+    }
+
+    .column {
+        font-size:90%;
+    }
+
 }
